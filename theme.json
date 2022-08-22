@@ -23,22 +23,22 @@
 		"color": {
 			"palette": [
 				{
-					"color": "#ffffff",
+					"color": "#FFF5E1",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#000000",
+					"color": "#781C68",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#9DFF20",
+					"color": "#FFD39A",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#345C00",
+					"color": "#319DA0",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
