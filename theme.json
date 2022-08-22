@@ -311,7 +311,8 @@
 				"typography": {
 					"fontWeight": "300",
 					"letterSpacing": "-0.02rem",
-					"lineHeight": "1.4"
+					"lineHeight": "1.4",
+					"textTransform": "capitalize"
 				}
 			},
 			"link": {
