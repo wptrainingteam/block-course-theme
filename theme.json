@@ -305,6 +305,9 @@
 				}
 			},
 			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--secondary)"
+				},
 				"typography": {
 					"fontWeight": "300",
 					"letterSpacing": "-0.02rem",
