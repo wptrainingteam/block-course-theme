@@ -1,15 +1,4 @@
 {
-
-	"customTemplates": [
-		{
-			"name": "page-alternative",
-			"postTypes": [
-				"page"
-			],
-			"title": "Page Alternative"
-		}
-	],
-
 	"customTemplates": [
 		{
 			"name": "blank",
@@ -381,7 +370,7 @@
 			"title": "Footer"
 		},
 		{
-			"area": "general",
+			"area": "uncategorized",
 			"name": "post-meta",
 			"title": "Post Meta"
 		}
