@@ -90,6 +90,27 @@
 					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
 					"name": "System Font",
 					"slug": "system-font"
+				},
+				{
+					"fontFamily": "\"Open Sans\", sans-serif",
+					"name": "Open Sans",
+					"slug": "open-sans",
+					"fontFace": [
+						{
+							"fontFamily": "Open Sans",
+							"fontWeight": "300 800",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/open-sans-v34-latin-regular.woff2" ]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontWeight": "300 800",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/open-sans-v34-latin-italic.woff2" ]
+						}
+					]
 				}
 			],
 			"fontSizes": [
@@ -215,6 +236,9 @@
 				}
 			},
 			"core/quote": {
+				"typography": {
+					"fontFamily": "var( --wp--preset--font-family--open-sans )"
+				},
 				"border": {
 					"width": "1px"
 				}
@@ -321,6 +345,7 @@
 					"text": "var(--wp--preset--color--secondary)"
 				},
 				"typography": {
+					"fontFamily": "var( --wp--preset--font-family--open-sans )",
 					"fontWeight": "300",
 					"letterSpacing": "-0.02rem",
 					"lineHeight": "1.4",
@@ -353,7 +378,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--system-font)",
+			"fontFamily": "var( --wp--preset--font-family--open-sans )",
 			"fontSize": "var(--wp--preset--font-size--medium)",
 			"lineHeight": "1.6"
 		}
