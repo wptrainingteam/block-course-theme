@@ -1,0 +1,23 @@
+{
+    "title": "Dark Theme",
+    "styles": {
+      "color": {
+        "background": "#101517",
+        "text": "#68de7c"
+      },
+      "elements": {
+        "link": {
+          "color": {
+            "text": "#9ec2e6"
+          }
+        },
+        "heading": {
+          "color": {
+            "text": "#9ec2e6"
+          }
+        }
+      }
+    },
+    "settings": [],
+    "version": 2
+  }
